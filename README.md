@@ -1,4 +1,4 @@
-# [Algoexpert](https://www.algoexpert.io/)
+# [AlgoExpert](https://www.algoexpert.io/)
 
 ### [Easy - 1/25](https://github.com/AsahiOcean/Algoexpert/tree/main/Easy)
 ### [Medium - 1/52](https://github.com/AsahiOcean/Algoexpert/tree/main/Medium)
