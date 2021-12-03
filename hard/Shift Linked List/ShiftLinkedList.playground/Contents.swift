@@ -1,5 +1,6 @@
 import Foundation
 
+// Shift Linked List
 // https://www.algoexpert.io/questions/Shift%20Linked%20List
 
 class Program {
@@ -12,6 +13,7 @@ class Program {
             next = nil
         }
     }
+    
     // O(n) time | O(1) space - where n is the number of nodes in the Linked List
     
     static func shiftLinkedList(_ head: LinkedList, _ k: Int) -> LinkedList? {
@@ -23,7 +25,7 @@ class Program {
         }
         
         let offset = abs(k) % length
-        if offset == 0 { return head }
+        guard offset != 0 else { return head }
         
         var newPosition = length - offset
         if k <= 0 { newPosition = offset }
@@ -39,9 +41,12 @@ class Program {
     }
 }
 
-import XCTest
+// MARK: - Test cases -
 
-//      Executed 1 test, with 0 failures (0 unexpected) in 0.031 (0.033) seconds
+// Result: Executed 1 test, with 0 failures (0 unexpected) in 0.024 (0.025) seconds
+
+
+import XCTest
 
 class Tests: XCTestCase {
     
