@@ -1,4 +1,4 @@
-## Easy
+<h2>Easy<img src="https://visitor-badge.glitch.me/badge?page_id=https://github.com/asahiocean/AlgoExpert/tree/main/easy" align="right"></h2>
 
 * [x] [Validate Subsequence](https://www.algoexpert.io/questions/Validate%20Subsequence)
 * [ ] Two Number Sum
