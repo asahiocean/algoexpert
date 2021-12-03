@@ -1,4 +1,4 @@
-### Medium - 1/52
+<h2>Medium<img src="https://visitor-badge.glitch.me/badge?page_id=https://github.com/asahiocean/AlgoExpert/tree/main/medium" align="right"></h2>
 
 * [x] [River Sizes](https://www.algoexpert.io/questions/River%20Sizes)
 * [ ] Three Number Sum
