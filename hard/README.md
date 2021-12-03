@@ -1,4 +1,4 @@
-# Hard - 1/46
+<h2>Hard<img src="https://visitor-badge.glitch.me/badge?page_id=https://github.com/asahiocean/AlgoExpert/tree/main/hard" align="right"></h2>
 
 * [x] [**Shift Linked List**](https://github.com/AsahiOcean/Algoexpert/tree/main/Hard/Shift%20Linked%20List)
 * [ ] Four Number Sum
