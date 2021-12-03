@@ -1,4 +1,4 @@
-# Very Hard - 1/32
+## Very Hard
 
 * [x] [**Max Profit With K Transactions**](https://github.com/AsahiOcean/Algoexpert/tree/main/Very%20Hard/Max%20Profit%20With%20K%20Transactions)
 * [ ] Apartment Hunting
