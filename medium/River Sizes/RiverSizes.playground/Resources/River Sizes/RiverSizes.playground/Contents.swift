@@ -1,6 +1,5 @@
 import Foundation
 
-// River Sizes
 // https://www.algoexpert.io/questions/River%20Sizes
 
 class Program {
@@ -41,16 +40,12 @@ class Program {
     }
 }
 
-// MARK: - Test Cases -
-
-// Result: Executed 1 test, with 0 failures (0 unexpected) in 0.071 (0.074) seconds
-
 import XCTest
 
+// Executed 1 test, with 0 failures (0 unexpected) in 0.097 (0.099) seconds
+
 class Tests: XCTestCase {
-    
-    private let program = Program()
-    
+    private let p = Program()
     func test() {
         let matrix = [
             [1, 0, 0, 1, 0],
@@ -60,8 +55,8 @@ class Tests: XCTestCase {
             [1, 0, 1, 1, 0]
         ]
         let expected = [1, 2, 2, 2, 5]
-        let riverSizes = program.riverSizes(matrix).sorted()
-        XCTAssertEqual(riverSizes, expected)
+        let riverSizes = p.riverSizes(matrix).sorted()
+        XCTAssert(riverSizes == expected)
     }
 }
 
