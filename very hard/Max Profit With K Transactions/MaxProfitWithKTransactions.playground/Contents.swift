@@ -1,5 +1,6 @@
 import Foundation
 
+// Max Profit With K Transactions
 // https://www.algoexpert.io/questions/Max%20Profit%20With%20K%20Transactions
 
 class Program {
@@ -21,14 +22,18 @@ class Program {
     }
 }
 
+// MARK: - Test cases -
+
+// Result: Executed 1 test, with 0 failures (0 unexpected) in 0.005 (0.007) seconds
+
 import XCTest
 
-// Executed 1 test, with 0 failures (0 unexpected) in 0.005 (0.007) seconds
-
 class Tests: XCTestCase {
-    private let p = Program()
+    
+    private let program = Program()
+    
     func test() {
-        XCTAssertEqual(p.maxProfitWithKTransactions([5, 11, 3, 50, 60, 90], 2), 93)
+        XCTAssertEqual(program.maxProfitWithKTransactions([5, 11, 3, 50, 60, 90], 2), 93)
     }
 }
 
